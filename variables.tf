@@ -6,3 +6,9 @@ variable "aws_region" {
   type    = string
   default = "us-east-1"
 }
+
+
+variable "sqs_name" {
+  description = "Test SQS"
+  default = "test-sqs"
+}
